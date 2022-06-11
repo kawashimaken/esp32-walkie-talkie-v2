@@ -1,0 +1,81 @@
+
+(rules PCB esp32_internet_radio_v4
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (app.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 14)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+  )
+  (rule
+    (width 500.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (class default
+    "ENCODER_GND" "ESPDUINO_IO0" "ESPDUINO_5V" "ENCODER_DT" /Vin RESET "ESPDUINO_IO2" "ESPDUINO_IO4"
+    /AREF "ESPDUINO_IO34" "ENCODER_CLK" "ESPDUINO_IO15" "unconnected-(P5-Pad1)" "unconnected-(P6-Pad1)" "unconnected-(P7-Pad1)" "unconnected-(P8-Pad1)"
+    "ENCODER_SWITCH" "ESPDUINO_IO18" "ESPDUINO_IO19" "ESPDUINO_IO23" "ESPDUINO_IO5" "ESPDUINO_IO13" "ESPDUINO_IO12" "ESPDUINO_IO14"
+    "ESPDUINO_IO27" "ESPDUINO_IO16" "ESPDUINO_IO33" "ESPDUINO_IO25" "ESPDUINO_IO26" "ESPDUINO_TX" "ESPDUINO_RX" "POWER_IN_5V_VCC"
+    "ESPDUINO_IO32" "PCM5102_SCK" "ESPDUINO_3.3V" /IOREF "ST7789_BLK" "TFT_MISO" "ESPDUINO_IO36" "unconnected-(P3-Pad1)"
+    "unconnected-(P3-Pad2)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
