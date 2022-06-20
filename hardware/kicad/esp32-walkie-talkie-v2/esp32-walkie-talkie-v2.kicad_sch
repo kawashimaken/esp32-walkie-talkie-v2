@@ -824,7 +824,6 @@
     )
   )
 
-
   (junction (at 58.42 89.535) (diameter 0) (color 0 0 0 0)
     (uuid 0633e62f-67d9-4f2c-bfa0-b307a8e175a7)
   )
@@ -2643,7 +2642,7 @@
     (property "Value" "330" (id 1) (at 132.08 31.7499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 127.762 30.48 90)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (id 2) (at 127.762 30.48 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 129.54 30.48 0)
@@ -2797,7 +2796,7 @@
     (property "Value" "330" (id 1) (at 123.19 31.7499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 118.872 30.48 90)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (id 2) (at 118.872 30.48 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 120.65 30.48 0)
@@ -2906,10 +2905,10 @@
       (reference "P8") (unit 1) (value "CONN_01X01") (footprint "Socket_Arduino_Uno:Arduino_1pin")
     )
     (path "/f67dee4a-805c-4563-ba28-5a6bba1ad765"
-      (reference "R1") (unit 1) (value "330") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1") (unit 1) (value "330") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/5d57424f-adb7-4874-b837-6a4aae2030e9"
-      (reference "R2") (unit 1) (value "330") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R2") (unit 1) (value "330") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
   )
 )
