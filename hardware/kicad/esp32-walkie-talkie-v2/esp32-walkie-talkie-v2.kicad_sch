@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "KEN ESP32 INTERNET RADIO HAT FOR ESPDUINO ")
-    (date "lun. 30 mars 2015")
+    (title "ESP32 Walkie Talkie v2 ")
+    (date "2022-06-21")
   )
 
   (lib_symbols
