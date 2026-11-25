@@ -10,7 +10,7 @@
   )
 
   (lib_symbols
-    (symbol "Connector:Conn_01x02_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "esp32_walkie_talkie_v2_Legacy:Conn_01x02_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -67,7 +67,7 @@
         )
       )
     )
-    (symbol "Connector:Conn_01x03_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "esp32_walkie_talkie_v2_Legacy:Conn_01x03_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -140,7 +140,7 @@
         )
       )
     )
-    (symbol "Connector:Conn_01x07_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "esp32_walkie_talkie_v2_Legacy:Conn_01x07_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 10.16 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -2515,7 +2515,7 @@
     (pin "2" (uuid 0b593d2a-d0ae-4e79-9add-1d1b1413b85d))
   )
 
-  (symbol (lib_id "Connector:Conn_01x07_Male") (at 27.94 104.775 0) (unit 1)
+  (symbol (lib_id "esp32_walkie_talkie_v2_Legacy:Conn_01x07_Male") (at 27.94 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0d4eb81f-8dec-4649-8dde-a51a7f188ab6)
     (property "Reference" "J3" (id 0) (at 28.575 92.075 0))
@@ -2535,7 +2535,7 @@
     (pin "7" (uuid 679e8d51-38b5-4f25-9198-b6839504c56b))
   )
 
-  (symbol (lib_id "Connector:Conn_01x07_Male") (at 88.265 103.505 0) (unit 1)
+  (symbol (lib_id "esp32_walkie_talkie_v2_Legacy:Conn_01x07_Male") (at 88.265 103.505 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0d629335-b3e4-4612-aee9-d6c6436fbf10)
     (property "Reference" "J6" (id 0) (at 88.9 90.805 0))
@@ -2574,7 +2574,7 @@
     (pin "2" (uuid db7f8176-551c-41fc-a84d-254e1872ee91))
   )
 
-  (symbol (lib_id "Connector:Conn_01x03_Male") (at 77.47 31.75 0) (unit 1)
+  (symbol (lib_id "esp32_walkie_talkie_v2_Legacy:Conn_01x03_Male") (at 77.47 31.75 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 29813413-cdd7-4dd0-b394-ad53bca0719b)
     (property "Reference" "J2" (id 0) (at 81.28 24.765 0)
@@ -2594,7 +2594,7 @@
     (pin "3" (uuid 8ee05527-a45a-47ad-aa9a-64d54742d634))
   )
 
-  (symbol (lib_id "Connector:Conn_01x03_Male") (at 273.685 113.665 180) (unit 1)
+  (symbol (lib_id "esp32_walkie_talkie_v2_Legacy:Conn_01x03_Male") (at 273.685 113.665 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 41cce6f4-221f-4fdd-98f5-9fcfc5d9dc69)
     (property "Reference" "J4" (id 0) (at 274.955 112.3949 0)
@@ -2652,7 +2652,7 @@
     (pin "2" (uuid 76f52ee5-46bd-4bf3-abd5-17091cc4cf79))
   )
 
-  (symbol (lib_id "Connector:Conn_01x02_Male") (at 36.195 64.135 0) (unit 1)
+  (symbol (lib_id "esp32_walkie_talkie_v2_Legacy:Conn_01x02_Male") (at 36.195 64.135 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 60ffce99-50f6-4ac3-a5be-4ed58d839774)
     (property "Reference" "J5" (id 0) (at 36.83 59.055 0))
@@ -2707,7 +2707,7 @@
     (pin "1" (uuid b501aeb0-0458-4bfc-bb99-31f699c00161))
   )
 
-  (symbol (lib_id "Connector:Conn_01x03_Male") (at 52.705 31.75 180) (unit 1)
+  (symbol (lib_id "esp32_walkie_talkie_v2_Legacy:Conn_01x03_Male") (at 52.705 31.75 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9da4dd00-7568-41b6-a3c2-eaef7ee58620)
     (property "Reference" "J1" (id 0) (at 49.53 24.765 0))
@@ -2723,7 +2723,7 @@
     (pin "3" (uuid 0fd2bfc0-9564-4e6f-8f5f-5e805b1cd283))
   )
 
-  (symbol (lib_id "Connector:Conn_01x02_Male") (at 119.38 65.405 0) (unit 1)
+  (symbol (lib_id "esp32_walkie_talkie_v2_Legacy:Conn_01x02_Male") (at 119.38 65.405 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9e4476ba-d98c-455c-be04-e4423bf89c14)
     (property "Reference" "J7" (id 0) (at 127 59.69 0))
